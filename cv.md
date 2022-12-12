@@ -4,12 +4,12 @@
 * Location: Moscow, Russia;
 * Phone: +7 950 716 16 02;
 * Email: vmariukhnyk@gmail.com;
-* Telegram: valeryevich_95;
+* Telegram: valeryevich_m;
 * GitHub: Valeriy95;
 
 ****
 ## About Me
-I am 27 years old. I recently started learning programming. I have no experience in this area. I have a greater desire to learn JavaScript.
+I recently started learning programming. I have little experience in this area, but I have a greater desire to learn JavaScript. I have a main job, but I want to change it to programming. My goal is to become a Junior Front-end developer.
 
 ****
 ## Skills
@@ -31,11 +31,7 @@ function highAndLow(numbers) {
 ```
 
 ****
-## Experience
-*Nothing yet.*
-
-****
-## Education
+## Courses
 * Udemy: 
     + HTML; 
     + CSS; 
@@ -44,5 +40,13 @@ function highAndLow(numbers) {
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress);
 
 ****
-## English
+## Projects
+*Nothing yet.*
+
+****
+## Education
+V. N. Karazin Kharkiv National University
+
+****
+## Languages
 English level - A2
