@@ -162,7 +162,8 @@ body {
    list-style: none;
 }
 
-.section-item {
+.section-item, 
+#projects a {
    position: relative;
    margin: 0;
    margin-bottom: 10px;
@@ -179,7 +180,7 @@ body {
    height: 24px;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url(./assets/icon/icons8-маркер-50.png)
+   background-image: url(./assets/logo/icons8-маркер-50.png)
 }
 
 .contact-item:nth-child(2)::before {
@@ -190,7 +191,7 @@ body {
    height: 24px;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url(./assets/icon/icons8-звонящий-телефон-24.png)
+   background-image: url(./assets/logo/icons8-звонящий-телефон-24.png)
 }
 
 .contact-item:nth-child(3)::before {
@@ -201,7 +202,7 @@ body {
    height: 22px;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url(./assets/icon/icons8-сообщение-50.png)
+   background-image: url(./assets/logo/icons8-сообщение-50.png)
 }
 
 .contact-item:nth-child(4)::before {
@@ -212,7 +213,7 @@ body {
    height: 24px;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url(./assets/icon/icons8-телеграмма-app-50.png);
+   background-image: url(./assets/logo/icons8-телеграмма-app-50.png);
 }
 
 .contact-item:nth-child(5)::before {
@@ -223,7 +224,7 @@ body {
    height: 24px;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url(./assets/icon/icons8-github-50.png);
+   background-image: url(./assets/logo/icons8-github-50.png);
 }
 
 .contact-item a {
@@ -253,7 +254,7 @@ body {
    height: 16px;
    background-size: contain;
    background-repeat: no-repeat;
-   background-image: url(./assets/icon/icons8-крутящийся-круг-50.png);
+   background-image: url(./assets/logo/icons8-крутящийся-круг-50.png);
 }
 
 code {
@@ -268,6 +269,22 @@ li > span {
 #education p,
 #languages p {
    font-weight: 400;
+}
+
+#projects a {
+   left: 35px;
+   text-decoration: none;
+}
+
+#projects a::before {
+   content: "";
+   position: absolute;
+   left: -35px;
+   width: 16px;
+   height: 16px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-image: url(./assets/logo/icons8-крутящийся-круг-50.png);
 }
 
 #languages span {
@@ -300,6 +317,6 @@ li > span {
    text-decoration:none;
    font-weight: 300;
    color:#ffffff;
-}
+   }
 
    
